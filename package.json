@@ -1,0 +1,26 @@
+{
+  "name": "djs-handler",
+  "version": "1.0.0",
+  "description": "A handler made in Typescipt and DiscordJS which is optimised and easy to use",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "discordjs",
+    "djshandler",
+    "handler",
+    "discord",
+    "djs"
+  ],
+  "author": "Harshith Reddy",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
+  }
+}
