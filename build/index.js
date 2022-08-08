@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DJSHandler = void 0;
 const events_1 = require("events");
 const loadCommands_1 = require("./Functions/loadCommands");
 const CommandHandler_1 = require("./Handlers/CommandHandler");
@@ -45,4 +46,4 @@ class DJSHandler extends events_1.EventEmitter {
         });
     }
 }
-exports.default = DJSHandler;
+exports.DJSHandler = DJSHandler;

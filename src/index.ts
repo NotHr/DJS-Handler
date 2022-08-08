@@ -5,7 +5,7 @@ import { CommandHandler } from "./Handlers/CommandHandler";
 import { eventHandler } from "./Handlers/EventHandler";
 import clientOptions from "./Types/ClientOptions";
 
-export default class DJSHandler extends EventEmitter {
+export class DJSHandler extends EventEmitter {
   private _commands = "commands";
   private _events = "events";
   private _prefix = "!";
