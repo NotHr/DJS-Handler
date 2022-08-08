@@ -1,2 +1,2 @@
-import DJSHandler from "./src/index";
+import DJSHandler from "./build/index";
 export default DJSHandler;
