@@ -1,5 +1,7 @@
 import { Client, Collection } from "discord.js";
 import { EventEmitter } from "events";
+import { loadCommands } from "./Functions/loadCommands";
+import { CommandHandler } from "./Handlers/CommandHandler";
 import { eventHandler } from "./Handlers/EventHandler";
 import clientOptions from "./Types/ClientOptions";
 
@@ -37,5 +39,7 @@ export default class DJSHandler extends EventEmitter {
       options.prefix = this._prefix;
     }
     eventHandler(client, options.eventsDir);
+    CommandHandler(options.commandsDir, client);
+    loadCommands(client, options.prefix);
   }
 }
