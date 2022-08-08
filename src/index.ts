@@ -1,4 +1,4 @@
-import { Client } from "discord.js";
+import { Client, Collection } from "discord.js";
 import { EventEmitter } from "events";
 import { eventHandler } from "./Handlers/EventHandler";
 import clientOptions from "./Types/ClientOptions";
