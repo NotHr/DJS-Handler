@@ -1,5 +1,5 @@
 {
-  "name": "djs-handler",
+  "name": "nothr-djs-handler",
   "version": "1.0.0",
   "description": "A handler made in Typescipt and DiscordJS which is optimised and easy to use",
   "main": "build/index.js",
